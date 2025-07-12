@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>Document</title>
 </head>
+<style>
+    body{
+        text-align: center;
+    }
+
+    h1, h2, p, ol, ul{
+        font-family: "inter", sans-serif;
+    }
+    #judul{
+        border: 0px solid black;
+        padding: 50px;
+    }
+    #isi{
+        background-color: #F8FAFC;
+        border: 0px solid black;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    #box1{
+        border: 0px solid black;
+        width: 640px;
+        text-align:start;
+    }
+    a{
+        all: unset; 
+        cursor: pointer;
+        color: #4E80EE;
+    }
+    li{
+        padding: 5px;
+    }
+</style>
 <body>
-    <h1> Hello World </h1>
+    <div id="judul">
+        <h1 style="font-size: 36px;"> Frequently Asked Questions </h1>
+        <p style="font-size: 16px;"> Browse through the most frequently asked questions </p>
+    </div>
+    <div id="isi">
+        <div id="box1">
+            <h2 style="font-size: 24px;">How can I track my order?</h2>
+            <p style="font-size: 16px;"> You can track your order using the following steps: </p>
+            <ol>
+                <li>Go to the Order <a href>Tracking page.</a></li>
+                <li>Enter your order number and email address.</a></li>
+                <li>Click on the Track Order button to view the current status of your shipment.</a></li>
+            </ol>
+            <p style="font-size: 16px;"> If you encounter any issues, please visit our <a href>Help Center.</a></p><br>
+            <div style="border: 1px solid #D2D5DA;"></div><br>
+            <h2 style="font-size: 24px;"> What is your return policy?</h2>
+            <p style="font-size: 16px;">We offer a 30-day return policy on most items. Here are some key points:</p>
+            <ul>
+                <li><b> Items must be in original condition:</b> Unworn, unused, and unwashed.</li>
+                <li><b> Include original packaging and tags:</b>All items should be returned with their original packaging and tags.</li>
+                <li><b> Proof of purchase:</b> A receipt or proof of purchase is required.</li>
+            </ul>
+            <p style="font-size: 16px;"> For more detailed information, read our full <a href>Return Policy.</a></p><br>
+
+        </div>
+    </div>
 </body>
 </html>
